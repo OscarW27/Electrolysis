@@ -59,9 +59,6 @@ while vort != "Tijd" or "Volume":
         ToF()
     else:
         print("Er is iets fout gegaan, kies je meting opnieuw")
-
-
-
             
 def circuit_V():
     GPIO.setmode(GPIO.BOARD)
@@ -88,7 +85,3 @@ def circuit_T():
         time.sleep(0.2)
         print('Switch status = ', GPIO.input(ledout))
     GPIO.cleanup()
-
-
-
-
